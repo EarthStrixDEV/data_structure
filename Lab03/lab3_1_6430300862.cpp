@@ -146,10 +146,10 @@ int counts(struct record *head)
 {
     struct record *node;
     node = head;
-    int count = 0;
-    while (node)
+    int count = 0; 
+    while (node) 
     {
-        count++;
+        count++; 
         node = node->next;
     }
     return count;
